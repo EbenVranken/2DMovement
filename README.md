@@ -1,4 +1,4 @@
-# RpgBasicMovement
+# 2 Dimensional Movement
 A basic movement system for GML (Game Maker Language)
 
 Learn to move in 4 directions (up, down, left, right)
