@@ -1,0 +1,31 @@
+///  Player Step event
+// Movement Variables
+
+up_key = keyboard_check(vk_up);
+down_key = keyboard_check(vk_down);
+left_key = keyboard_check(vk_left);
+right_key = keyboard_check(vk_right);
+
+// These are the movement variables, I made these so things are easier
+// In this instance, I used the arrow keys, if you want WASD/ZQSD exc, you can use this code:
+// up_key = keyboard_check(ord(Z);
+// down_key = keyboard_check(ord(S);
+// left_key = keyboard_check(ord(Q);
+// right_key = keyboard_check(ord(D);
+
+// Player movement
+if up_key {
+  phy_position_y -= spd;
+}
+
+if down_key {
+  phy_position_y += spd;
+}
+
+if left_key {
+  phy_position_x -= spd;
+}
+
+if right_key {
+  phy_position_x += spd;
+}
