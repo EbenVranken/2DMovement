@@ -1,0 +1,4 @@
+/// Player Create Event
+spd = 4;
+
+// Spd stands for speed, this variable will be used 4 times in this code
